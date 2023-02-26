@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import HeroSection from './Components/HeroSection';
+import SideBar from './Components/SideBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // className="App bg-[url('https://pbs.twimg.com/media/ExDGXLBXMAEqjSw.jpg')]
+    // bg-cover bg-gradient-to-r from-cyan-500 to-blue-500"
+    <div className= ''>
+      
+        <HeroSection/>
+        
     </div>
+    // <div className='flex'>
+    //   <SideBar/>
+    //   <div className='p-20'>
+    //     Container
+    //   </div>
+    // </div>
   );
 }
 
