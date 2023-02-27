@@ -18,7 +18,8 @@ function Header() {
              
             </ul>
             </div>
-           <img src={require('./../Assets/userimage.png')} className="w-[40px] rounded-full m-5" />
+           <img src={require('./../Assets/userimage.png')} 
+           className="w-[40px] rounded-full m-5 invisible md:visible lg:visible" />
         
         </div>
     </div>
